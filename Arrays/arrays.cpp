@@ -63,3 +63,22 @@ C++ implementation :
   }
  
 ----------
+Traverse : Traversing can easy in linera array. Algorithm:
+ 
+
+C++ implement :
+void traverse(int arr[])
+{
+       for(int i=0; i<10; i++)   cout<<arr[i];
+}
+ 
+----------
+ 
+Insertion : Inserting an element at the end of a linear array can be easily done provided the memory space space allocated for the array is large enough to accommodate the additional element. Inserting an element in the middle . . Algorithm : Insertion(arr[], n, k, item) here arr is a linear array with n elements and k is index we item insert. This algorithm inserts an item to kth in index in arr.
+ 
+Step 1:Start
+Step 2: Repeat for i=n-1 down to k(index)
+   Shift the element dawn by one position] arr[i+1]=arr[i];
+  [End of the loop]
+Step 3: set arr[k] = item
+Step 4: n++; Step 5 : Exit.

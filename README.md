@@ -1,2 +1,2 @@
 # 100daysOfDSA
-Data structure and algo 
+Trying to do 100 Days of code of Data structure and algo 
